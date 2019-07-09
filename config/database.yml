@@ -20,6 +20,7 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: localhost
 
 development:
   <<: *default
@@ -82,4 +83,4 @@ production:
   <<: *default
   database: tps_chat_production
   username: tps_chat
-  password: <%= ENV['TPS_CHAT_DATABASE_PASSWORD'] %>
+  password: tps_chat
