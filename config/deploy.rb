@@ -10,13 +10,13 @@ set :repo_url, "git@github.com:bhaumikgithub/tps_chat.git"
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "project/tps_chat"
-set :deploy_to, 'project/demo'
+set :deploy_to, '/home/ubuntu/project/tps_chat'
 set :rvm_ruby_version, '2.6.3'
 
 set :passenger_restart_with_touch, true
 set :stage, :production
 set :rails_env, :production
-set :branch, "master"
+set :branch, "feature/tanay"
 # set :use_sudo, true
 set :user, 'ubuntu'
 
