@@ -1,0 +1,7 @@
+{
+  "name": "tps_chat",
+  "private": true,
+  "dependencies": {
+    "line-reader": "^0.4.0"
+  }
+}
